@@ -35,6 +35,12 @@
             "dir_name": "zoom",
             "module": false,
             "import_file": null
+        },
+        {
+            "name": "Fake News",
+            "dir_name": "fnews",
+            "module": true,
+            "import_file": "mod_fnews"
         }
     ]
 }

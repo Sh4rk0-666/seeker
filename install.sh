@@ -146,9 +146,6 @@ if [[ ! -d ".host" ]]; then
     mkdir -p ".host"
 fi
 
-if [[ ! -d ".www" ]]; then
-    mkdir -p ".www"
-fi
 
 if [[ ! -d ".tunnels_log" ]]; then
     mkdir -p ".tunnels_log"

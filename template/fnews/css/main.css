@@ -1,0 +1,35 @@
+body{
+    background-color: #666 !important;
+}
+
+.news-img img{
+    filter: blur(4px)
+}
+
+
+.copyright-area{
+      position: relative;
+
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: white;
+}
+
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: white;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
