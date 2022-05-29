@@ -63,6 +63,58 @@ arch_install() {
     echo -e '\n--------------------\n' >> "$ILOG"
 }
 
+# Cloudflared Download
+get_cloudflared() {
+    
+    url="$1"
+    file=`basename $url`
+    if [[ -e "$file" ]]; then
+    
+        rm -rf "$file"
+    fi
+    
+    wget --no-check-certificate "$url" > /dev/null 2>&1
+    
+    if [[ -e "$file" ]]; then
+        mv -f "$file" .host/cloudflared > /dev/null 2>&1
+        chmod +x .host/cloudflared > /dev/null 2>&1
+        
+    else
+        echo -e "\n${RED}[${WHITE}!${RED}]${RED} Error, Install Cloudflared manually."
+        { clear; exit 1; }
+    fi
+}
+
+
+cloudflared_download_and_install() {
+    
+    if [[ -e ".host/cloudflared" ]]; then
+        echo -e "\n${GREEN}[${WHITE}+${GREEN}]${GREEN} Cloudflared already installed."
+        sleep 1
+    
+    else
+    
+        echo -e "\n${GREEN}[${WHITE}+${GREEN}]${MAGENTA} Downloading and Installing Cloudflared..."${WHITE}
+        
+        architecture=$(uname -m)
+        
+        if [[ ("$architecture" == *'arm'*) || ("$architecture" == *'Android'*) ]]; then
+            get_cloudflared 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm'
+        
+        elif [[ "$architecture" == *'aarch64'* ]]; then
+            get_cloudflared 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-arm64'
+        
+        elif [[ "$architecture" == *'x86_64'* ]]; then
+            get_cloudflared 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64'
+        
+        else
+            get_cloudflared 'https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-386'
+        fi
+    fi
+
+}
+
+
 echo -e '[!] Installing Dependencies...\n'
 
 if [ -f '/etc/arch-release' ]; then
@@ -84,6 +136,40 @@ echo -ne 'Packaging\r'
 pip3 install packaging &>> "$ILOG"
 status_check Packaging
 echo -e '\n--------------------\n' >> "$ILOG"
+
+
+
+echo -ne 'Create Directories\r'
+
+# Directories
+if [[ ! -d ".host" ]]; then
+    mkdir -p ".host"
+fi
+
+if [[ ! -d ".www" ]]; then
+    mkdir -p ".www"
+fi
+
+if [[ ! -d ".tunnels_log" ]]; then
+    mkdir -p ".tunnels_log"
+fi
+
+
+echo -ne 'Cloudflared\r'
+
+
+cloudflared_download_and_install
+
+echo -e '\n--------------------\n' >> "$ILOG"
+
+chmod -R 777 .tunnels_log
+chmod -R 777 .host
+
+
+
+# Clear content of log files
+
+truncate -s 0 .tunnels_log/.cloudfl.log 
 
 echo -e '=========\nCOMPLETED\n=========\n' >> "$ILOG"
 
