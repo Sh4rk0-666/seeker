@@ -1,232 +1,49 @@
-[Sun May 29 18:40:48 2022] PHP 7.4.11 Development Server (http://0.0.0.0:8080) started
-[Sun May 29 18:40:51 2022] 127.0.0.1:47074 Accepted
-[Sun May 29 18:40:51 2022] 127.0.0.1:47074 [200]: (null) /index.html
-[Sun May 29 18:40:51 2022] 127.0.0.1:47074 Closing
-[Sun May 29 18:41:51 2022] 127.0.0.1:47084 Accepted
-[Sun May 29 18:41:51 2022] 127.0.0.1:47084 [200]: (null) /
-[Sun May 29 18:41:51 2022] 127.0.0.1:47084 Closing
-[Sun May 29 18:41:51 2022] 127.0.0.1:47086 Accepted
-[Sun May 29 18:41:51 2022] 127.0.0.1:47086 [200]: (null) /css/main.css
-[Sun May 29 18:41:51 2022] 127.0.0.1:47086 Closing
-[Sun May 29 18:41:51 2022] 127.0.0.1:47088 Accepted
-[Sun May 29 18:41:51 2022] 127.0.0.1:47088 [200]: (null) /js/location.js
-[Sun May 29 18:41:51 2022] 127.0.0.1:47088 Closing
-[Sun May 29 18:41:51 2022] 127.0.0.1:47090 Accepted
-[Sun May 29 18:41:51 2022] 127.0.0.1:47090 [200]: (null) /js/info.js
-[Sun May 29 18:41:51 2022] 127.0.0.1:47090 Closing
-[Sun May 29 18:41:51 2022] 127.0.0.1:47092 Accepted
-[Sun May 29 18:41:51 2022] 127.0.0.1:47092 [200]: (null) /images/fnlogo.png
-[Sun May 29 18:41:51 2022] 127.0.0.1:47092 Closing
-[Sun May 29 18:41:52 2022] 127.0.0.1:47094 Accepted
-[Sun May 29 18:41:52 2022] 127.0.0.1:47094 [200]: POST /info_handler.php
-[Sun May 29 18:41:52 2022] 127.0.0.1:47094 Closing
-[Sun May 29 18:41:52 2022] 127.0.0.1:47096 Accepted
-[Sun May 29 18:41:52 2022] 127.0.0.1:47096 [200]: POST /images/fnlogo.png
-[Sun May 29 18:41:52 2022] 127.0.0.1:47096 Closing
-[Sun May 29 18:45:14 2022] 127.0.0.1:47098 Accepted
-[Sun May 29 18:45:14 2022] 127.0.0.1:47098 [200]: POST /
-[Sun May 29 18:45:14 2022] 127.0.0.1:47098 Closing
-[Sun May 29 18:45:14 2022] 127.0.0.1:47100 Accepted
-[Sun May 29 18:45:14 2022] 127.0.0.1:47100 [200]: POST /css/main.css
-[Sun May 29 18:45:14 2022] 127.0.0.1:47100 Closing
-[Sun May 29 18:45:14 2022] 127.0.0.1:47102 Accepted
-[Sun May 29 18:45:14 2022] 127.0.0.1:47104 Accepted
-[Sun May 29 18:45:14 2022] 127.0.0.1:47106 Accepted
-[Sun May 29 18:45:14 2022] 127.0.0.1:47104 [200]: POST /images/fnlogo.png
-[Sun May 29 18:45:14 2022] 127.0.0.1:47104 Closing
-[Sun May 29 18:45:14 2022] 127.0.0.1:47106 [200]: POST /js/info.js
-[Sun May 29 18:45:14 2022] 127.0.0.1:47106 Closing
-[Sun May 29 18:45:14 2022] 127.0.0.1:47102 [200]: POST /js/location.js
-[Sun May 29 18:45:14 2022] 127.0.0.1:47102 Closing
-[Sun May 29 18:45:15 2022] 127.0.0.1:47108 Accepted
-[Sun May 29 18:45:15 2022] 127.0.0.1:47108 [200]: POST /info_handler.php
-[Sun May 29 18:45:15 2022] 127.0.0.1:47108 Closing
-[Sun May 29 18:45:34 2022] 127.0.0.1:47110 Accepted
-[Sun May 29 18:45:34 2022] 127.0.0.1:47110 [200]: POST /error_handler.php
-[Sun May 29 18:45:34 2022] 127.0.0.1:47110 Closing
-[Sun May 29 18:45:35 2022] 127.0.0.1:47114 Accepted
-[Sun May 29 18:45:35 2022] 127.0.0.1:47114 [200]: POST /
-[Sun May 29 18:45:35 2022] 127.0.0.1:47114 Closing
-[Sun May 29 18:45:35 2022] 127.0.0.1:47116 Accepted
-[Sun May 29 18:45:35 2022] 127.0.0.1:47116 [200]: POST /css/main.css
-[Sun May 29 18:45:35 2022] 127.0.0.1:47116 Closing
-[Sun May 29 18:45:35 2022] 127.0.0.1:47118 Accepted
-[Sun May 29 18:45:35 2022] 127.0.0.1:47118 [200]: POST /js/info.js
-[Sun May 29 18:45:35 2022] 127.0.0.1:47118 Closing
-[Sun May 29 18:45:35 2022] 127.0.0.1:47120 Accepted
-[Sun May 29 18:45:35 2022] 127.0.0.1:47120 [200]: POST /js/location.js
-[Sun May 29 18:45:35 2022] 127.0.0.1:47120 Closing
-[Sun May 29 18:45:36 2022] 127.0.0.1:47122 Accepted
-[Sun May 29 18:45:36 2022] 127.0.0.1:47122 [200]: POST /images/fnlogo.png
-[Sun May 29 18:45:36 2022] 127.0.0.1:47122 Closing
-[Sun May 29 18:45:36 2022] 127.0.0.1:47124 Accepted
-[Sun May 29 18:45:36 2022] 127.0.0.1:47124 [200]: POST /images/fnlogo.png
-[Sun May 29 18:45:36 2022] 127.0.0.1:47124 Closing
-[Sun May 29 18:45:36 2022] 127.0.0.1:47126 Accepted
-[Sun May 29 18:45:36 2022] 127.0.0.1:47126 [200]: POST /info_handler.php
-[Sun May 29 18:45:36 2022] 127.0.0.1:47126 Closing
-[Sun May 29 18:45:53 2022] 127.0.0.1:47128 Accepted
-[Sun May 29 18:45:53 2022] 127.0.0.1:47128 [200]: POST /error_handler.php
-[Sun May 29 18:45:53 2022] 127.0.0.1:47128 Closing
-[Sun May 29 18:48:15 2022] 127.0.0.1:47132 Accepted
-[Sun May 29 18:48:15 2022] 127.0.0.1:47132 [200]: POST /
-[Sun May 29 18:48:15 2022] 127.0.0.1:47132 Closing
-[Sun May 29 18:48:15 2022] 127.0.0.1:47134 Accepted
-[Sun May 29 18:48:15 2022] 127.0.0.1:47134 [200]: POST /css/main.css
-[Sun May 29 18:48:15 2022] 127.0.0.1:47134 Closing
-[Sun May 29 18:48:15 2022] 127.0.0.1:47136 Accepted
-[Sun May 29 18:48:15 2022] 127.0.0.1:47136 [200]: POST /js/info.js
-[Sun May 29 18:48:15 2022] 127.0.0.1:47136 Closing
-[Sun May 29 18:48:15 2022] 127.0.0.1:47138 Accepted
-[Sun May 29 18:48:15 2022] 127.0.0.1:47138 [200]: POST /js/location.js
-[Sun May 29 18:48:15 2022] 127.0.0.1:47138 Closing
-[Sun May 29 18:48:16 2022] 127.0.0.1:47140 Accepted
-[Sun May 29 18:48:16 2022] 127.0.0.1:47140 [200]: POST /images/fnlogo.png
-[Sun May 29 18:48:16 2022] 127.0.0.1:47140 Closing
-[Sun May 29 18:48:16 2022] 127.0.0.1:47142 Accepted
-[Sun May 29 18:48:16 2022] 127.0.0.1:47142 [200]: POST /images/fnlogo.png
-[Sun May 29 18:48:16 2022] 127.0.0.1:47142 Closing
-[Sun May 29 18:48:16 2022] 127.0.0.1:47144 Accepted
-[Sun May 29 18:48:16 2022] 127.0.0.1:47144 [200]: POST /info_handler.php
-[Sun May 29 18:48:16 2022] 127.0.0.1:47144 Closing
-[Sun May 29 18:48:27 2022] 127.0.0.1:47146 Accepted
-[Sun May 29 18:48:27 2022] 127.0.0.1:47146 [200]: POST /error_handler.php
-[Sun May 29 18:48:27 2022] 127.0.0.1:47146 Closing
-[Sun May 29 18:48:28 2022] 127.0.0.1:47148 Accepted
-[Sun May 29 18:48:28 2022] 127.0.0.1:47148 [200]: POST /
-[Sun May 29 18:48:28 2022] 127.0.0.1:47148 Closing
-[Sun May 29 18:48:28 2022] 127.0.0.1:47152 Accepted
-[Sun May 29 18:48:28 2022] 127.0.0.1:47152 [200]: POST /css/main.css
-[Sun May 29 18:48:28 2022] 127.0.0.1:47154 Accepted
-[Sun May 29 18:48:28 2022] 127.0.0.1:47152 Closing
-[Sun May 29 18:48:28 2022] 127.0.0.1:47154 [200]: POST /js/location.js
-[Sun May 29 18:48:28 2022] 127.0.0.1:47154 Closing
-[Sun May 29 18:48:28 2022] 127.0.0.1:47156 Accepted
-[Sun May 29 18:48:28 2022] 127.0.0.1:47156 [200]: POST /js/info.js
-[Sun May 29 18:48:28 2022] 127.0.0.1:47156 Closing
-[Sun May 29 18:48:29 2022] 127.0.0.1:47158 Accepted
-[Sun May 29 18:48:29 2022] 127.0.0.1:47158 [200]: POST /images/fnlogo.png
-[Sun May 29 18:48:29 2022] 127.0.0.1:47158 Closing
-[Sun May 29 18:48:29 2022] 127.0.0.1:47160 Accepted
-[Sun May 29 18:48:29 2022] 127.0.0.1:47160 [200]: POST /info_handler.php
-[Sun May 29 18:48:29 2022] 127.0.0.1:47160 Closing
-[Sun May 29 18:48:54 2022] 127.0.0.1:47162 Accepted
-[Sun May 29 18:48:54 2022] 127.0.0.1:47162 [200]: POST /error_handler.php
-[Sun May 29 18:48:54 2022] 127.0.0.1:47162 Closing
-[Sun May 29 18:48:55 2022] 127.0.0.1:47166 Accepted
-[Sun May 29 18:48:55 2022] 127.0.0.1:47166 [200]: POST /
-[Sun May 29 18:48:55 2022] 127.0.0.1:47166 Closing
-[Sun May 29 18:48:55 2022] 127.0.0.1:47168 Accepted
-[Sun May 29 18:48:55 2022] 127.0.0.1:47168 [200]: POST /css/main.css
-[Sun May 29 18:48:55 2022] 127.0.0.1:47168 Closing
-[Sun May 29 18:48:55 2022] 127.0.0.1:47170 Accepted
-[Sun May 29 18:48:55 2022] 127.0.0.1:47172 Accepted
-[Sun May 29 18:48:55 2022] 127.0.0.1:47172 [200]: POST /js/location.js
-[Sun May 29 18:48:55 2022] 127.0.0.1:47172 Closing
-[Sun May 29 18:48:55 2022] 127.0.0.1:47170 [200]: POST /js/info.js
-[Sun May 29 18:48:55 2022] 127.0.0.1:47170 Closing
-[Sun May 29 18:48:56 2022] 127.0.0.1:47174 Accepted
-[Sun May 29 18:48:56 2022] 127.0.0.1:47174 [200]: POST /images/fnlogo.png
-[Sun May 29 18:48:56 2022] 127.0.0.1:47174 Closing
-[Sun May 29 18:48:56 2022] 127.0.0.1:47176 Accepted
-[Sun May 29 18:48:56 2022] 127.0.0.1:47176 [200]: POST /images/fnlogo.png
-[Sun May 29 18:48:56 2022] 127.0.0.1:47176 Closing
-[Sun May 29 18:48:56 2022] 127.0.0.1:47178 Accepted
-[Sun May 29 18:48:56 2022] 127.0.0.1:47178 [200]: POST /info_handler.php
-[Sun May 29 18:48:56 2022] 127.0.0.1:47178 Closing
-[Sun May 29 18:49:03 2022] 127.0.0.1:47180 Accepted
-[Sun May 29 18:49:03 2022] 127.0.0.1:47180 [200]: POST /error_handler.php
-[Sun May 29 18:49:03 2022] 127.0.0.1:47180 Closing
-[Sun May 29 18:56:21 2022] 127.0.0.1:47184 Accepted
-[Sun May 29 18:56:21 2022] 127.0.0.1:47184 [200]: POST /
-[Sun May 29 18:56:21 2022] 127.0.0.1:47184 Closing
-[Sun May 29 18:56:21 2022] 127.0.0.1:47186 Accepted
-[Sun May 29 18:56:21 2022] 127.0.0.1:47186 [200]: POST /images/fnlogo.png
-[Sun May 29 18:56:21 2022] 127.0.0.1:47186 Closing
-[Sun May 29 18:57:15 2022] 127.0.0.1:47188 Accepted
-[Sun May 29 18:57:15 2022] 127.0.0.1:47188 [200]: POST /
-[Sun May 29 18:57:15 2022] 127.0.0.1:47188 Closing
-[Sun May 29 18:57:15 2022] 127.0.0.1:47190 Accepted
-[Sun May 29 18:57:15 2022] 127.0.0.1:47190 [200]: POST /images/fnlogo.png
-[Sun May 29 18:57:15 2022] 127.0.0.1:47190 Closing
-[Sun May 29 18:58:31 2022] 127.0.0.1:47192 Accepted
-[Sun May 29 18:58:31 2022] 127.0.0.1:47192 [200]: POST /
-[Sun May 29 18:58:31 2022] 127.0.0.1:47192 Closing
-[Sun May 29 18:58:31 2022] 127.0.0.1:47194 Accepted
-[Sun May 29 18:58:31 2022] 127.0.0.1:47194 [200]: POST /images/fnlogo.png
-[Sun May 29 18:58:31 2022] 127.0.0.1:47194 Closing
-[Sun May 29 18:58:53 2022] 127.0.0.1:47196 Accepted
-[Sun May 29 18:58:53 2022] 127.0.0.1:47196 [200]: POST /
-[Sun May 29 18:58:53 2022] 127.0.0.1:47196 Closing
-[Sun May 29 18:58:53 2022] 127.0.0.1:47198 Accepted
-[Sun May 29 18:58:53 2022] 127.0.0.1:47198 [200]: POST /images/fnlogo.png
-[Sun May 29 18:58:53 2022] 127.0.0.1:47198 Closing
-[Sun May 29 18:59:18 2022] 127.0.0.1:47200 Accepted
-[Sun May 29 18:59:18 2022] 127.0.0.1:47200 [200]: POST /
-[Sun May 29 18:59:18 2022] 127.0.0.1:47200 Closing
-[Sun May 29 18:59:18 2022] 127.0.0.1:47202 Accepted
-[Sun May 29 18:59:18 2022] 127.0.0.1:47202 [200]: POST /images/fnlogo.png
-[Sun May 29 18:59:18 2022] 127.0.0.1:47202 Closing
-[Sun May 29 19:00:31 2022] 127.0.0.1:47204 Accepted
-[Sun May 29 19:00:31 2022] 127.0.0.1:47204 [200]: POST /
-[Sun May 29 19:00:31 2022] 127.0.0.1:47204 Closing
-[Sun May 29 19:00:31 2022] 127.0.0.1:47206 Accepted
-[Sun May 29 19:00:31 2022] 127.0.0.1:47206 [200]: POST /images/fnlogo.png
-[Sun May 29 19:00:31 2022] 127.0.0.1:47206 Closing
-[Sun May 29 19:00:46 2022] 127.0.0.1:47208 Accepted
-[Sun May 29 19:00:46 2022] 127.0.0.1:47208 [200]: POST /
-[Sun May 29 19:00:46 2022] 127.0.0.1:47208 Closing
-[Sun May 29 19:00:46 2022] 127.0.0.1:47210 Accepted
-[Sun May 29 19:00:46 2022] 127.0.0.1:47210 [200]: POST /images/fnlogo.png
-[Sun May 29 19:00:46 2022] 127.0.0.1:47210 Closing
-[Sun May 29 19:00:50 2022] 127.0.0.1:47212 Accepted
-[Sun May 29 19:00:50 2022] 127.0.0.1:47212 [200]: POST /
-[Sun May 29 19:00:50 2022] 127.0.0.1:47212 Closing
-[Sun May 29 19:00:50 2022] 127.0.0.1:47214 Accepted
-[Sun May 29 19:00:50 2022] 127.0.0.1:47214 [200]: POST /images/fnlogo.png
-[Sun May 29 19:00:50 2022] 127.0.0.1:47214 Closing
-[Sun May 29 19:01:04 2022] 127.0.0.1:47216 Accepted
-[Sun May 29 19:01:04 2022] 127.0.0.1:47216 [200]: POST /
-[Sun May 29 19:01:04 2022] 127.0.0.1:47216 Closing
-[Sun May 29 19:01:05 2022] 127.0.0.1:47218 Accepted
-[Sun May 29 19:01:05 2022] 127.0.0.1:47218 [200]: POST /css/main.css
-[Sun May 29 19:01:05 2022] 127.0.0.1:47218 Closing
-[Sun May 29 19:01:05 2022] 127.0.0.1:47220 Accepted
-[Sun May 29 19:01:05 2022] 127.0.0.1:47220 [200]: POST /js/info.js
-[Sun May 29 19:01:05 2022] 127.0.0.1:47220 Closing
-[Sun May 29 19:01:05 2022] 127.0.0.1:47222 Accepted
-[Sun May 29 19:01:05 2022] 127.0.0.1:47222 [200]: POST /js/location.js
-[Sun May 29 19:01:05 2022] 127.0.0.1:47222 Closing
-[Sun May 29 19:01:05 2022] 127.0.0.1:47224 Accepted
-[Sun May 29 19:01:05 2022] 127.0.0.1:47224 [200]: POST /images/fnlogo.png
-[Sun May 29 19:01:05 2022] 127.0.0.1:47224 Closing
-[Sun May 29 19:01:06 2022] 127.0.0.1:47226 Accepted
-[Sun May 29 19:01:06 2022] 127.0.0.1:47226 [200]: POST /info_handler.php
-[Sun May 29 19:01:06 2022] 127.0.0.1:47226 Closing
-[Sun May 29 19:01:06 2022] 127.0.0.1:47228 Accepted
-[Sun May 29 19:01:06 2022] 127.0.0.1:47228 [200]: POST /images/fnlogo.png
-[Sun May 29 19:01:06 2022] 127.0.0.1:47228 Closing
-[Sun May 29 19:01:32 2022] 127.0.0.1:47230 Accepted
-[Sun May 29 19:01:32 2022] 127.0.0.1:47230 [200]: POST /
-[Sun May 29 19:01:32 2022] 127.0.0.1:47230 Closing
-[Sun May 29 19:01:32 2022] 127.0.0.1:47232 Accepted
-[Sun May 29 19:01:32 2022] 127.0.0.1:47232 [200]: POST /js/location.js
-[Sun May 29 19:01:32 2022] 127.0.0.1:47232 Closing
-[Sun May 29 19:01:32 2022] 127.0.0.1:47234 Accepted
-[Sun May 29 19:01:32 2022] 127.0.0.1:47236 Accepted
-[Sun May 29 19:01:32 2022] 127.0.0.1:47236 [200]: POST /css/main.css
-[Sun May 29 19:01:32 2022] 127.0.0.1:47236 Closing
-[Sun May 29 19:01:32 2022] 127.0.0.1:47234 [200]: POST /js/info.js
-[Sun May 29 19:01:32 2022] 127.0.0.1:47234 Closing
-[Sun May 29 19:01:32 2022] 127.0.0.1:47238 Accepted
-[Sun May 29 19:01:32 2022] 127.0.0.1:47238 [200]: POST /images/fnlogo.png
-[Sun May 29 19:01:32 2022] 127.0.0.1:47238 Closing
-[Sun May 29 19:01:34 2022] 127.0.0.1:47240 Accepted
-[Sun May 29 19:01:34 2022] 127.0.0.1:47240 [200]: POST /info_handler.php
-[Sun May 29 19:01:34 2022] 127.0.0.1:47240 Closing
-[Sun May 29 19:01:34 2022] 127.0.0.1:47242 Accepted
-[Sun May 29 19:01:34 2022] 127.0.0.1:47242 [200]: POST /images/fnlogo.png
-[Sun May 29 19:01:34 2022] 127.0.0.1:47242 Closing
-[Sun May 29 19:01:55 2022] 127.0.0.1:47244 Accepted
-[Sun May 29 19:01:55 2022] 127.0.0.1:47244 [200]: POST /error_handler.php
-[Sun May 29 19:01:55 2022] 127.0.0.1:47244 Closing
+[Mon May 30 00:32:48 2022] PHP 7.4.11 Development Server (http://0.0.0.0:8080) started
+[Mon May 30 00:32:51 2022] 127.0.0.1:47284 Accepted
+[Mon May 30 00:32:51 2022] 127.0.0.1:47284 [200]: (null) /index.html
+[Mon May 30 00:32:51 2022] 127.0.0.1:47284 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47294 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47294 [200]: (null) /
+[Mon May 30 00:33:46 2022] 127.0.0.1:47294 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47296 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47296 [200]: (null) /css/main.css
+[Mon May 30 00:33:46 2022] 127.0.0.1:47296 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47298 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47298 [200]: (null) /js/info.js
+[Mon May 30 00:33:46 2022] 127.0.0.1:47298 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47300 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47300 [200]: (null) /js/location.js
+[Mon May 30 00:33:46 2022] 127.0.0.1:47300 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47302 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47302 [200]: (null) /images/fnlogo.png
+[Mon May 30 00:33:46 2022] 127.0.0.1:47302 Closing
+[Mon May 30 00:33:46 2022] 127.0.0.1:47304 Accepted
+[Mon May 30 00:33:46 2022] 127.0.0.1:47304 [200]: (null) /images/profile.png
+[Mon May 30 00:33:46 2022] 127.0.0.1:47304 Closing
+[Mon May 30 00:33:47 2022] 127.0.0.1:47306 Accepted
+[Mon May 30 00:33:47 2022] 127.0.0.1:47306 [200]: POST /info_handler.php
+[Mon May 30 00:33:47 2022] 127.0.0.1:47306 Closing
+[Mon May 30 00:33:47 2022] 127.0.0.1:47308 Accepted
+[Mon May 30 00:33:47 2022] 127.0.0.1:47308 [200]: POST /images/fnlogo.png
+[Mon May 30 00:33:47 2022] 127.0.0.1:47308 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47310 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47310 [200]: POST /
+[Mon May 30 00:34:15 2022] 127.0.0.1:47310 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47312 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47314 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47312 [200]: POST /js/location.js
+[Mon May 30 00:34:15 2022] 127.0.0.1:47316 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47314 [200]: POST /css/main.css
+[Mon May 30 00:34:15 2022] 127.0.0.1:47316 [200]: POST /js/info.js
+[Mon May 30 00:34:15 2022] 127.0.0.1:47312 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47314 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47316 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47318 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47320 Accepted
+[Mon May 30 00:34:15 2022] 127.0.0.1:47318 [200]: POST /images/profile.png
+[Mon May 30 00:34:15 2022] 127.0.0.1:47320 [200]: POST /images/fnlogo.png
+[Mon May 30 00:34:15 2022] 127.0.0.1:47318 Closing
+[Mon May 30 00:34:15 2022] 127.0.0.1:47320 Closing
+[Mon May 30 00:34:16 2022] 127.0.0.1:47322 Accepted
+[Mon May 30 00:34:16 2022] 127.0.0.1:47322 [200]: POST /info_handler.php
+[Mon May 30 00:34:16 2022] 127.0.0.1:47322 Closing

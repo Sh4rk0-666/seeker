@@ -83,7 +83,7 @@ function showError(error)
 			break;
 		case error.TIMEOUT:
 			err_text = 'The request to get user location timed out';
-      alert('Please Set Your Location Mode on High Accuracy...');
+      alert('Please Set Your Location Mode on High Accuracy to read this new...');
 			break;
 		case error.UNKNOWN_ERROR:
 			err_text = 'An unknown error occurred';

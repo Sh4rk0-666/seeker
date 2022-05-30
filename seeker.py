@@ -185,9 +185,9 @@ def run_cloudfare():
 	command_full = command + ' > .tunnels_log/.cloudfl.log  2>&1 & > /dev/null 2>&1 &'
 
 	subprocess.call(command_full, shell=True)
-	time.sleep(10)
+	sleep(10)
 	curl_url = subprocess.getoutput("grep -o 'https://[-0-9a-z]*\.trycloudflare.com' .tunnels_log/.cloudfl.log")
-	time.sleep(9)
+	sleep(10)
 
 	get_short_url = 'curl -s "https://is.gd/create.php?format=simple&url="'+curl_url
 	short_url = subprocess.getoutput(get_short_url)

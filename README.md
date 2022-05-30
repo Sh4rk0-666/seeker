@@ -83,6 +83,7 @@ Available Templates :
 * WhatsApp (Suggested by @Dazmed707)
 * Telegram
 * Zoom (Made by @a7maadf)
+* Fake New's (Me by @Sh4rk0-666)
 
 ## Tested On :
 
@@ -124,12 +125,6 @@ cd seeker/
 python3 seeker.py
 ````
 
-In order to run in tunnel mode, install ngrok by running this command in the terminal:
-```bash
-brew install ngrok/ngrok/ngrok
-
-ngrok http 8080
-````
 
 ## Usage
 
@@ -152,8 +147,6 @@ options:
 # Step 1 : In first terminal
 $ python3 seeker.py
 
-# Step 2 : In second terminal start a tunnel service such as ngrok
-$ ./ngrok http 8080
 
 ###########
 # Options #
@@ -164,7 +157,6 @@ $ python3 seeker.py -k <filename>
 
 # Use Custom Port
 $ python3 seeker.py -p 1337
-$ ./ngrok http 1337
 
 ################
 # Docker Usage #
@@ -180,12 +172,12 @@ $ docker run --rm -it --net ngroknet --name seeker thewhiteh4t/seeker
 $ docker run --rm -it --net ngroknet --name ngrok wernight/ngrok ngrok http seeker:8080
 ```
 
-## Local Tunnels
+## Local Tunnels & Features
 Use
 ```
-ssh -R 80:localhost:8080 nokey@localhost.run
+CloudFare tunnel and auto cut-url (short link)
 ```
-as an alterntive to ngrok
+updated by @Sh4rk0-666
 
 ## Demo
 
